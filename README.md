@@ -1,10 +1,13 @@
 # tweet_tracker
 Collects, analyze, and graph tweet trends from a specified user
 
-To complete before running program: 
+Description:
+Twitter based application to analyze a specific user's sentiments and common word usage.  Implemented in Python using the tweepy library. 
 
-    Fill in lines 12-20 in main.py with full path to storage files for tweet information. If/else structure here decides which        user to load tweets from.
-    Obtain Twitter developer credentials and input consumer key and secret key into collect.py line 7.
+
+To complete before running program: 
+Fill in lines 12-20 in main.py with full path to storage files for tweet information. If/else structure here decides which user to load tweets from.
+Obtain Twitter developer credentials and input consumer key and secret key into collect.py line 7.
     
     
 Menu options: 
