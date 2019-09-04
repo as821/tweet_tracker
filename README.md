@@ -1,7 +1,8 @@
 # tweet_tracker
 Collects, analyze, and graph tweet trends from a specified user
 
-To complete before running program:  
+To complete before running program: 
+
     Fill in lines 12-20 in main.py with full path to storage files for tweet information. If/else structure here decides which        user to load tweets from.
     Obtain Twitter developer credentials and input consumer key and secret key into collect.py line 7.
     
