@@ -69,7 +69,7 @@ def collect(write_file, user, num_tweets=500):
 def continue_loading(last_id, write_file, user, num_tweets=1000):
     # tweepy set up and authorization
     import tweepy
-    auth = tweepy.AppAuthHandler('WyTJt6rvRFnWy2qs5BKbrauBm', 'icXR23lwIq6ho94ZNf9oVWdP8r3OmdR5rl2SunuitYqWelk13t')
+    auth = tweepy.AppAuthHandler('your_consumer_key', 'your_secret_key')
     api = tweepy.API(auth)
 
     # pickle set up/import
@@ -157,7 +157,7 @@ def continue_loading(last_id, write_file, user, num_tweets=1000):
 def update(most_recent_id, write_file, user):
     # tweepy set up and authorization
     import tweepy
-    auth = tweepy.AppAuthHandler('WyTJt6rvRFnWy2qs5BKbrauBm', 'icXR23lwIq6ho94ZNf9oVWdP8r3OmdR5rl2SunuitYqWelk13t')
+    auth = tweepy.AppAuthHandler('your_consumer_key', 'your_secret_key')
     api = tweepy.API(auth)
 
     # pickle set up/import
